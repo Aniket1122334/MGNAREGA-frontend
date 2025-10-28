@@ -2,7 +2,7 @@ import axios from "axios";
 
 //Base URL
 const API = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://mgnarega-backend.onrender.com/",
 });
 
 export const fetchAllData = async () => {
